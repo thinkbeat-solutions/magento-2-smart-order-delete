@@ -129,7 +129,7 @@ class OrderDelete
         TrashFactory $trashFactory,
         LogFactory $logFactory,
         ScopeConfigInterface $scopeConfig,
-        \Magento\Backend\Model\Auth\SessionFactory $authSession = null,
+        ?\Magento\Backend\Model\Auth\SessionFactory $authSession,
         Json $json,
         InvoiceCollectionFactory $invoiceCollectionFactory,
         ShipmentCollectionFactory $shipmentCollectionFactory,
